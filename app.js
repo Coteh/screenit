@@ -2,7 +2,10 @@
 
 const puppeteer = require("puppeteer");
 
-const USAGE_STR = "usage: screenit [URL] [-o OUTPUT_FILE]\n\n  Optional flags:\n  -o|--output [OUTPUT_FILE]\tSpecify output file - defaults to 'screenshot.png'";
+const USAGE_STR = "usage: screenit [URL] [-o OUTPUT_FILE]\n\n  "
+    + "Optional flags:\n"
+    + "  -o|--output [OUTPUT_FILE]\tSpecify output file - defaults to 'screenshot.png'\n"
+    + "  --version\t\t\tDisplay version number";
 
 const FlagType = Object.freeze({
     OUTPUT: 1
@@ -18,6 +21,9 @@ process.argv.slice(2).forEach((arg) => {
         return;
     } else if (arg === "-h" || arg === "--help") {
         displayUsage(false);
+        process.exit(0);
+    } else if (arg === "--version") {
+        console.log("1.0.1");
         process.exit(0);
     }
     switch (flag) {
