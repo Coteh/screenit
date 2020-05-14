@@ -1,6 +1,6 @@
 {
   "name": "screenit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Capture screenshots of webpages using puppeteer",
   "main": "app.js",
   "scripts": {
