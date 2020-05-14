@@ -34,6 +34,6 @@ usage: screenit [URL] [-o OUTPUT_FILE]
 - Not guaranteed to work with every page (post on Issues page if you find something)
 
 ## Future Work
-- Implement full-page screenshots (scroll down page)
+- Implement full-page screenshots (using automated scrolling)
 - Use cookies
 - Add tests
