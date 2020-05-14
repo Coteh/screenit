@@ -1,4 +1,4 @@
-# screenshot-maker
+# screenit
 
 A simple tool I made using [puppeteer](https://github.com/puppeteer/puppeteer) that allows me to take screenshots of webpages for project READMEs, etc.
 
@@ -6,13 +6,13 @@ A simple tool I made using [puppeteer](https://github.com/puppeteer/puppeteer) t
 - Take a screenshot of a supplied page using puppeteer
 
 ## Installation
-1. Clone the repository by running `git clone https://github.com/Coteh/screenshot-maker.git`
+1. Clone the repository by running `git clone https://github.com/Coteh/screenit.git`
 
 1. Run `npm link` to symlink the executable to your system path.
 
 ## Usage
 ```
-usage: screenshot-maker [URL] [-o OUTPUT_FILE]
+usage: screenit [URL] [-o OUTPUT_FILE]
 
   Optional flags:
   -o|--output [OUTPUT_FILE]	Specify output file - defaults to 'screenshot.png'

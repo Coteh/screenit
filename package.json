@@ -1,5 +1,5 @@
 {
-  "name": "screenshot-maker",
+  "name": "screenit",
   "version": "1.0.0",
   "description": "Capture screenshots of webpages using puppeteer",
   "main": "app.js",
@@ -13,6 +13,6 @@
     "puppeteer": "^3.0.4"
   },
   "bin": {
-    "screenshot-maker": "./app.js"
+    "screenit": "./app.js"
   }
 }

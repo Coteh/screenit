@@ -2,7 +2,7 @@
 
 const puppeteer = require("puppeteer");
 
-const USAGE_STR = "usage: screenshot-maker [URL] [-o OUTPUT_FILE]\n\n  Optional flags:\n  -o|--output [OUTPUT_FILE]\tSpecify output file - defaults to 'screenshot.png'";
+const USAGE_STR = "usage: screenit [URL] [-o OUTPUT_FILE]\n\n  Optional flags:\n  -o|--output [OUTPUT_FILE]\tSpecify output file - defaults to 'screenshot.png'";
 
 const FlagType = Object.freeze({
     OUTPUT: 1
