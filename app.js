@@ -61,7 +61,8 @@ if (!hasHTTP(inputURL)) {
         height: 720
     });
     await page.goto(inputURL, { waitUntil: "networkidle0", timeout: 240000 });
-    await page.waitFor(5000);
+    // TODO add option to wait for ms
+    // await page.waitFor(5000);
     await page.screenshot({ path: outputFile, type: "png" });
 
     browser.close();
