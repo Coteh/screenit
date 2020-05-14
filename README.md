@@ -6,7 +6,16 @@ A simple tool I made using [puppeteer](https://github.com/puppeteer/puppeteer) t
 - Take a screenshot of a supplied page using puppeteer
 
 ## Installation
-1. Clone the repository by running `git clone https://github.com/Coteh/screenit.git`
+
+### Via `npm`
+
+Install the command globally by running `npm install -g screenit`
+
+### Via Cloning
+1. Clone the repository by running:
+```
+git clone https://github.com/Coteh/screenit.git
+```
 
 1. Run `npm link` to symlink the executable to your system path.
 
