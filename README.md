@@ -29,6 +29,7 @@ usage: screenit [URL] [-o OUTPUT_FILE]
   Optional flags:
   -o|--output [OUTPUT_FILE]	Specify output file - defaults to 'screenshot.png'
   --version			Display version number
+  --help			Display this usage message
 ```
 
 ## Issues

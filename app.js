@@ -5,7 +5,8 @@ const puppeteer = require("puppeteer");
 const USAGE_STR = "usage: screenit [URL] [-o OUTPUT_FILE]\n\n  "
     + "Optional flags:\n"
     + "  -o|--output [OUTPUT_FILE]\tSpecify output file - defaults to 'screenshot.png'\n"
-    + "  --version\t\t\tDisplay version number";
+    + "  --version\t\t\tDisplay version number\n"
+    + "  --help\t\t\tDisplay this usage message";
 
 const FlagType = Object.freeze({
     OUTPUT: 1
