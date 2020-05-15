@@ -1,5 +1,8 @@
 # screenit
 
+![npm](https://img.shields.io/npm/v/screenit)
+![npm](https://img.shields.io/npm/dw/screenit)
+
 A simple tool I made using [puppeteer](https://github.com/puppeteer/puppeteer) that allows me to take screenshots of webpages for project READMEs, etc.
 
 ## Features
