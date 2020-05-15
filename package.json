@@ -14,5 +14,9 @@
   },
   "bin": {
     "screenit": "./app.js"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Coteh/screenit.git",
+  },
 }
